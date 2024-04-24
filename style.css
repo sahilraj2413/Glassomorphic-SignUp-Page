@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{ 
+    font-family: serif;
+}
+
+.outer-box{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(3, 230, 230);
+}
+
+.inner-box{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translatey(-50%);
+    padding: 20px 40px;
+    border: 1px solid rgb(131, 127, 255);
+   border-radius: 8px;
+   box-shadow: 2px 2px 5px rgba(244, 138, 138, 0.8) ;
+   backdrop-filter: blur(10px);
+   /* this property is use for making background blur with given pxls from border side. */
+
+   z-index: 2;
+}
+
+
+
+.signup-header h1 {
+font-size: 2.5rem;
+color: blue;
+}
+
+.signup-header p{
+    font-size: 1rem;
+    color: rgb(100, 0, 128);
+}
+
+
+.signup-body{
+    margin: 20px 0;
+}
+
+.signup-body p{
+    margin: 10px 0px;
+
+}
+
+.signup-body p label{
+    display: block;
+   font-weight: bold;
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+
+
+.signup-body p input[type="submit"]
+/* this is elemnet selctor by grouping selector.
+*/
+{
+    background-color: rgb(90, 20, 128);
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(223, 15, 15);
+}
+
+.signup-footer{
+    color:black;
+    text-align: center;
+}
+.signup-footer p{
+    font-weight: bold;
+}
+.signup-footer a{
+    display: block;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: rgb(211, 203, 193);
+    position: absolute;
+
+
+}
+.c1{
+    top: 100px;
+    left: 40px;
+
+}
+.c2{
+    bottom: 50px;
+    right: 40px;
+}
+
+
+
+
